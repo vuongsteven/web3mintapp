@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { ethers , BigNumber } from 'ethers'; //package allows you to connect to the blockchain (alternative to web3.js)
 import radiantRobosNFT from './RadiantRobosNFT.json';
-import { Box, Flex, Button, Input, Text} from '@chakra-ui/react';
+import { Box, Flex, Button, Input, Text } from '@chakra-ui/react';
 
 const radiantRoboAddress = "0xCCe950f39Cb6776d3dcfCfAe8D1D64fF6859fC97";
 
@@ -45,6 +45,7 @@ const MainMint = ( { accounts, setAccounts } ) => {
             <div>
                 <Text fontSize="48px" textShadow="0 5px #000000">Radiant Robos</Text>
                 <Text fontSize="26px" font-family="VT323" letterSpacing="-5.5%" textShadow="0 2px 2px #000000">Defy the limits. Become Radiant.</Text>
+                <Text fontSize="13px" font-family="VT323" letterSpacing="-1.5%" textShadow="0 2px 2px #000000">Mint Price: 0.05 ether + gas</Text>
             </div>
             {isConnected ? (
                 <div>
