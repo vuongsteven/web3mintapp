@@ -11,8 +11,12 @@ IMPORTANT: if you plan on minting an NFT, make sure to be on the Rinkeby test ne
 # Radiant Robo NFT mint details
 
 Network: Rinkeby Test Network 
+
 Price: 0.05 ether
+
 Max Supply: 1000
+
 Max per wallet: 2
+
 Contract: ERC721
 
