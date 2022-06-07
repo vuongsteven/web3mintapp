@@ -3,9 +3,6 @@ import { Box, Flex, Button, Image, Link, Spacer } from '@chakra-ui/react';
 import Twitter from './assets/social-media-icons/twitter_32x32.png';
 import Email from './assets/social-media-icons/email_32x32.png';
 import discord from './assets/social-media-icons/discord.png';
-import { withTheme } from '@emotion/react';
-
-
 
 const NavBar = ({ accounts, setAccounts}) => {
     const isConnected = Boolean(accounts[0]);

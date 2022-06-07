@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import { ethers , BigNumber } from 'ethers'; //package allows you to connect to the blockchain (alternative to web3.js)
 import radiantRobosNFT from './RadiantRobosNFT.json';
-import { Box, Flex, Button, Image, Link, Input, Text} from '@chakra-ui/react';
-import { EtherscanProvider } from '@ethersproject/providers';
+import { Box, Flex, Button, Input, Text} from '@chakra-ui/react';
 
 const radiantRoboAddress = "0xCCe950f39Cb6776d3dcfCfAe8D1D64fF6859fC97";
 
