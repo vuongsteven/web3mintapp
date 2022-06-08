@@ -19,15 +19,15 @@ const NavBar = ({ accounts, setAccounts}) => {
     return (
         <Flex justify="space-between" align="center" padding="30px">
             {/* Social media icons will be displayed here*/}
-            <Flex justify="space-around" width="40%" padding="0 75px">
+            <Flex justify="space-around" width="30%" padding="0 60px">
                 <Link href="https://www.twitter.com/noberinos">
-                    <Image src = {Twitter} boxSize="42px" margin="0 15px"/>
+                    <Image src = {Twitter} boxSize="42px" margin="0 10px"/>
                 </Link>
                 <Link href="https://www.discord.com">
-                    <Image src = {discord} boxSize="42px" margin="0 15px"/>
+                    <Image src = {discord} boxSize="42px" margin="0 10px"/>
                 </Link>
                 <Link href="https://gmail.com">
-                    <Image src = {Email} boxSize="42px" margin="0 15px"/>
+                    <Image src = {Email} boxSize="42px" margin="0 10px"/>
                 </Link>
             </Flex>
             {/* Connect button and sections */}
